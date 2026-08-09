@@ -39,7 +39,9 @@ Baseline Thermal             Same frame
                          Person Detection
 ```
 
-**[▶ View Demo Video](results/demo/demo.mp4)**
+<p align="center">
+  <img src="results/demo/demo.gif" width="100%">
+</p>
 
 - Resolution: `1280 × 584`
 - Frames: `428`
