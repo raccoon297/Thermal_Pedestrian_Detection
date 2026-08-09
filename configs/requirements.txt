@@ -1,0 +1,11 @@
+# Week 2 metadata EDA
+numpy
+Pillow
+opencv-python
+matplotlib
+PyYAML
+torch
+torchvision
+ultralytics
+# 현재 단계는 Python 표준 라이브러리만 사용합니다.
+# 추후 영상 처리 단계에서 opencv-python, numpy 등을 추가합니다.

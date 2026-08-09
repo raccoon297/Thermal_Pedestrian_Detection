@@ -1,0 +1,5 @@
+predicted,true,count,confidence_threshold,iou_threshold
+person,person,420,0.25,0.45
+person,background,132,0.25,0.45
+background,person,88,0.25,0.45
+background,background,0,0.25,0.45
