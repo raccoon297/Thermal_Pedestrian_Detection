@@ -10,15 +10,12 @@
 
 ### Thermal Video Demo
 
-동일한 열영상 프레임을 좌우로 배치했다. 왼쪽은 Baseline thermal 영상이고, 오른쪽은 **Optimized CLAHE + YOLO26n (960)**의 보행자 탐지 결과다.
+동일한 열영상 프레임을 좌우로 배치했다. 왼쪽은 Baseline thermal 영상이고, 오른쪽은 Optimized CLAHE + YOLO26n (960)의 보행자 탐지 결과다.
 
 ![Thermal pedestrian detection demo](results/demo/demo.gif)
 
 - GIF: `720 × 328`, 143 frames, 약 42.9초
 - Original MP4: `1280 × 584`, 428 frames, 10 FPS
-- [원본 MP4 보기](results/demo/demo.mp4)
-
-> 영상은 모델의 동작을 보여주기 위한 정성적 결과다. MP4 압축·복원 과정이 포함되므로 정량 성능 평가에는 사용하지 않았다.
 
 ### Validation Detection Examples
 
