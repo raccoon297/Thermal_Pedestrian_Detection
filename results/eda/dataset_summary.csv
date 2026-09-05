@@ -1,3 +1,0 @@
-﻿split,total_images,total_annotations,person_category_id,night_images,night_images_with_person,night_images_without_person,night_person_boxes
-train,10742,175040,1,2110,1851,259,14032
-val,1144,16696,1,112,92,20,508
