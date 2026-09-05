@@ -1,0 +1,42 @@
+{
+  "experiment": "yolo26m_baseline",
+  "model": "yolo26m.pt",
+  "preprocessing": "baseline",
+  "epochs_configured": 50,
+  "epochs_completed": 50,
+  "dataset": {
+    "train_images": 2110,
+    "val_images": 112
+  },
+  "metrics": {
+    "precision": 0.8493820736488936,
+    "recall": 0.8658796591867458,
+    "map50": 0.9216199838311804,
+    "map50_95": 0.5650319857740124
+  },
+  "environment": {
+    "python": "3.12.8",
+    "torch": "2.11.0+cu130",
+    "ultralytics": "8.4.116",
+    "device": "NVIDIA GeForce RTX 5070"
+  },
+  "common_config_snapshot": {
+    "model": "yolo26n.pt",
+    "pretrained": true,
+    "epochs": 50,
+    "imgsz": 640,
+    "batch": 16,
+    "seed": 42,
+    "workers": 4,
+    "device": 0,
+    "optimizer": "auto",
+    "patience": 0,
+    "deterministic": true,
+    "augmentation": "default",
+    "plots": false
+  },
+  "fingerprints": {
+    "training_config": "b344ee1cea0433ba83e7459b0e207710b30e53c4c2990f96aa0e9638aec618aa",
+    "dataset_config": "186df11d17824ef8026b70d579fc12afdc5d068771c8b71e484a87719f588c1d"
+  }
+}

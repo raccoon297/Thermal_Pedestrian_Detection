@@ -1,0 +1,3 @@
+﻿split,bbox_count,width_q05,width_q25,width_median,height_q05,height_q25,height_median,area_median
+train,14032,3.0,6.0,9.0,8.0,15.0,24.0,225.0
+val,508,4.0,6.0,9.0,8.0,15.0,23.0,204.0

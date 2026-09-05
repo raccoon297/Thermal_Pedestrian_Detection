@@ -1,0 +1,73 @@
+{
+  "comparison": {
+    "proposed": {
+      "display_name": "Optimized CLAHE + YOLO26n (960)",
+      "preprocessing": "optimized_clahe",
+      "weights": "C:\\Users\\cailab-709-1\\Desktop\\Thermal_Pedestrian_Detection_V2\\results\\clahe\\best.pt",
+      "precision": 0.8467749482589041,
+      "recall": 0.8050193818994053,
+      "map50": 0.8893850618147763,
+      "map50_95": 0.5270840918362161,
+      "samples": 336,
+      "warmup": 20,
+      "inference_imgsz": 960,
+      "parameters": 2504190,
+      "gflops": 13.6030464,
+      "checkpoint_mb": 5.127385139465332,
+      "preprocess_mean_ms": 1.414015476188167,
+      "preprocess_p95_ms": 1.4871749999656458,
+      "inference_mean_ms": 7.170759523815951,
+      "inference_p95_ms": 7.481474999906368,
+      "end_to_end_mean_ms": 8.612247023808637,
+      "end_to_end_median_ms": 8.602399999972477,
+      "end_to_end_p95_ms": 8.907575000080215,
+      "fps": 116.11371541428046,
+      "peak_vram_allocated_mb": 83.44921875,
+      "peak_vram_reserved_mb": 114.0
+    },
+    "reference": {
+      "display_name": "Baseline + YOLO26m (640)",
+      "preprocessing": "baseline",
+      "weights": "C:\\Users\\cailab-709-1\\Desktop\\Thermal_Pedestrian_Detection_V2\\results\\yolo26m_baseline\\best.pt",
+      "precision": 0.8477974723347496,
+      "recall": 0.8662309835966863,
+      "map50": 0.9217393005936579,
+      "map50_95": 0.5632508798281429,
+      "samples": 336,
+      "warmup": 20,
+      "inference_imgsz": 640,
+      "parameters": 21774430,
+      "gflops": 74.9555712,
+      "checkpoint_mb": 41.97219181060791,
+      "preprocess_mean_ms": 3.0851380952339826,
+      "preprocess_p95_ms": 3.4883500001114953,
+      "inference_mean_ms": 6.40509017857347,
+      "inference_p95_ms": 6.7478749999736465,
+      "end_to_end_mean_ms": 9.53160059523568,
+      "end_to_end_median_ms": 9.506549999969138,
+      "end_to_end_p95_ms": 10.10422500007735,
+      "fps": 104.91417364884599,
+      "peak_vram_allocated_mb": 173.7197265625,
+      "peak_vram_reserved_mb": 230.0
+    }
+  },
+  "protocol": {
+    "training_image_size": 640,
+    "inference_image_sizes": {
+      "proposed": 960,
+      "reference": 640
+    },
+    "comparison_scope": "deployment-system operating points; model-only comparison is not claimed",
+    "proposed_preprocessing_implementation": "uint16 histogram percentile normalization + cached OpenCV CLAHE",
+    "proposed_validation_source": "raw uint16 TIFF processed at evaluation time",
+    "ablation_dataset_preserved": true,
+    "batch": 1,
+    "validation_images": 112,
+    "warmup": 20,
+    "repeats": 3,
+    "disk_io_included": false,
+    "cuda_synchronized": true,
+    "device": "NVIDIA GeForce RTX 5070",
+    "torch": "2.11.0+cu130"
+  }
+}
