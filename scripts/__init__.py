@@ -1,1 +1,0 @@
-"""ThermalSight project scripts."""
