@@ -1,4 +1,0 @@
-train: ../../data/processed/thermal_night/model_input/baseline/images/train
-val: ../../data/processed/thermal_night/model_input/baseline/images/val
-names:
-  0: person
